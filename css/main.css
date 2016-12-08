@@ -1,0 +1,85 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: lightgray;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+h1 {
+  background-color: lightblue;
+  border: .5em solid slategrey;
+  padding: 1em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.menu {
+  padding: .5em;
+}
+
+.btn {
+  display: inline-block;
+  color: black;
+  border-radius: 8px;
+  padding: .5em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.btn:hover {
+  color: slategray;
+}
+
+section h2 {
+  background-color: lightblue;
+  padding: .5rem;
+}
+
+.footer {
+  width: 15%;
+  margin-left: 8em;
+}
+
+.fb {
+  float: left;
+  width: 50%;
+}
+
+.twi {
+  float: right;
+  width: 50%;
+}
