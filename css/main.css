@@ -7,8 +7,6 @@
 html {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  background-color: lightgray;
-
 }
 
 *, *::before, *::after {
@@ -40,10 +38,18 @@ ol {
 }
 
 h1 {
-  background-color: lightblue;
-  border: .5em solid slategrey;
+  background-color: lightgray;
   padding: 1em;
   text-align: center;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  color: DodgerBlue;
 }
 
 img {
@@ -65,12 +71,11 @@ img {
 }
 
 .btn:hover {
-  color: slategray;
+  color: lightgray;
 }
 
-section h2 {
-  background-color: lightblue;
-  padding: .5rem;
+.btn-recipe {
+  padding: 0;
 }
 
 .footer {
@@ -86,4 +91,8 @@ section h2 {
 .twi {
   float: right;
   width: 50%;
+}
+
+.recipe {
+  background-color: lightgray;
 }
