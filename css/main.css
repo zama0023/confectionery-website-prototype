@@ -49,11 +49,12 @@ body {
 }
 
 h2 {
-  color: DodgerBlue;
+  color: dodgerblue;
 }
 
 img {
   width: 100%;
+  position: absolute;
 }
 
 .menu {
@@ -95,4 +96,23 @@ img {
 
 .recipe {
   background-color: lightgray;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    display: inline-block;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    display: inline-block;
+    width: 33.3333%;
+
+  }
+
 }
