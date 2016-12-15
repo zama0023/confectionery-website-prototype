@@ -30,7 +30,6 @@ p:nth-child(3), p:nth-child(4), p:nth-child(5) {
   position: relative;
   line-height: 1.3;
   font-size: 100%;
-
 }
 
 ul {
@@ -128,10 +127,10 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
     display: inline-block;
   }
 
-    p:nth-child(3), p:nth-child(4), p:nth-child(5) {
-      line-height: 1.3;
-      font-size: 100%;
-    }
+  p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+    line-height: 1.3;
+    font-size: 100%;
+  }
 
   .btn {
     text-align: center;
@@ -148,10 +147,10 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
     width: 33.3333%;
   }
 
-    p:nth-child(3), p:nth-child(4), p:nth-child(5) {
-      line-height: 1.4;
-      font-size: 110%;
-    }
+  p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+    line-height: 1.4;
+    font-size: 110%;
+  }
 
   .caption {
     left: 2em;
@@ -166,10 +165,10 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
     width: 33.3333%;
   }
 
-    p:nth-child(3), p:nth-child(4), p:nth-child(5) {
-      line-height: 1.5;
-      font-size: 120%;
-    }
+  p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+    line-height: 1.5;
+    font-size: 120%;
+  }
 
   .btn {
     font-size: 120%;
@@ -179,6 +178,7 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
   .caption {
     left: 15em;
     font-size: 120%;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -188,10 +188,10 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
     width: 33.3333%;
   }
 
-    p:nth-child(3), p:nth-child(4), p:nth-child(5) {
-      line-height: 1.5;
-      font-size: 130%;
-    }
+  p:nth-child(3), p:nth-child(4), p:nth-child(5) {
+    line-height: 1.6;
+    font-size: 130%;
+  }
 
   .btn {
     font-size: 130%;
